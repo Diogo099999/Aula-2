@@ -19,13 +19,9 @@ main {
 
 .content-container {
   display: flex;
-  align-items: center; /* Vertically align items in the container */
-  justify-content: space-between; /* Space between image and text */
+  align-items: center;
+  justify-content: space-between;
   width: 80%;
-}
-
-.img2 {
-  flex-shrink: 0;
 }
 
 .img2 img {
@@ -36,9 +32,6 @@ main {
 .container2 {
   flex: 1;
   margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 h1 {
@@ -54,7 +47,9 @@ p {
 
 .button2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically if needed */
+  gap: 20px; /* Add space between buttons */
   width: 80%;
   margin-top: 20px;
 }
@@ -69,7 +64,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 }
 
 button a {
