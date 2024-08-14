@@ -1,65 +1,33 @@
 * {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-
-body,
-html {
-  height: 100%;
 }
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-top: 50px;
+  margin: 100px;
 }
 
-.content-container {
-  display: flex;
-  align-items: center; /* Vertically align items in the container */
-  justify-content: space-between; /* Space between image and text */
-  width: 80%;
-}
-
-.img2 {
-  flex-shrink: 0;
-}
-
-.img2 img {
-  max-width: 100%;
-  height: auto;
-}
-
-.container2 {
-  flex: 1;
-  margin-left: 20px;
+.container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-  font-size: 50px;
-  text-align: center;
+  font-size: 100px;
+  text-align: left;
 }
 
 p {
   font-size: 35px;
   font-weight: 700;
-  text-align: left;
 }
 
-.button2 {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin-top: 20px;
-}
-
-button {
+.button1 {
   background-color: #3eb25e;
   border-radius: 100px;
   font-size: 20px;
@@ -72,12 +40,12 @@ button {
   cursor: pointer;
 }
 
-button a {
+.button1 a {
   color: white;
   font-weight: 700;
   text-decoration: none;
 }
 
-button:hover {
+.button1:hover {
   background-color: yellow;
 }
